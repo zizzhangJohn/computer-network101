@@ -2,14 +2,14 @@
 
 An Internet Protocol address (IP address) is a numerial label such as 192.0.2.1 that is connected to a computer network that uses the Interet Protocol for communication.
 
-## Commands check your ip
+## Commands to check your IP
 
 **On Unix terminal**
 
 ```bash
-ifconfig
+~$ ifconfig
 # or if you don't have ifconfig
-ip a
+~$ ip a
 ```
 
 **On Windows CMD**
@@ -24,12 +24,16 @@ ipconfig
 <div style="background-color:white;padding:1rem">
 <img src="./assets/ip-address/IPv4_structure.svg" alt="IPv4 structure"/>
 </div>
+
 <br/>
+
 IPv4 defines an IP address as 32-bit number. For a human-readable form, it is usually shown in dot-decimal notation, or sometimes known as "dotted quads"
 
-With an 8-bit number, the maximun value it can represent is 255, hence the address space of IPv4 is 2<sup>32</sup> = 4,294,967,296
+<br />
 
-`from 0.0.0.0 to 255.255.255.255`
+With an 8-bit number, the maximun value it can represent is 255, hence the address space of IPv4 is from `0.0.0.0` to `255.255.255.255`
+
+> 2<sup>32</sup> = 4,294,967,296
 
 Not all IPv4 addresses can be allocated for pubic use(access from the internet), some addresses are reserved for special purpose such as private networks (~18 million addresses) and multicast addressing (~270 million addresses).
 
@@ -38,8 +42,10 @@ Not all IPv4 addresses can be allocated for pubic use(access from the internet),
 <img src="./assets/ip-address/IPv6_structure.svg" alt="IPv6 structure"/>
 </div>
 <br/>
-IPv6 defines address 128bit, and the addresses are showed in hexdecimal form. Compared to IPv4, IPv6 has much larger address space:
-2<sup>128</sup>=340,282,366,920,938,463,463,374,607,431,768,211,456
+IPv6 defines addresses in 128 bits, and the addresses are showed in hexdecimal form. Compared to IPv4, IPv6 has much larger address space.<br/>
+
+
+> 2<sup>128</sup>=340,282,366,920,938,463,463,374,607,431,768,211,456
 
 <br/>
 
