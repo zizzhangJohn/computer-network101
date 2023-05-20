@@ -1,4 +1,4 @@
-# Everthing about computer network
+# Everything about computer network
 
 ## Table of Contents
 
