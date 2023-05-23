@@ -1,6 +1,6 @@
 # IP address
 
-An Internet Protocol address (IP address) is a numerial label such as 192.0.2.1 that is connected to a computer network that uses the Interet Protocol for communication.
+An Internet Protocol address (IP address) is a numerial label such as `192.0.2.1` that is connected to a computer network that uses the Internet Protocol for communication.
 
 ## Commands to check your IP
 
